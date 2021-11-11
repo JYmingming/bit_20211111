@@ -1,5 +1,5 @@
 function takeNum(start,end){
-    for (let i = 0; i < start-end; i++) {
+    for (let i = 0; i < end-start+1; i++) {
         console.log(start+i)
     }
 }
